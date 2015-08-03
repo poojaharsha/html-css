@@ -1,0 +1,402 @@
+/*Updation of the current pages is done by using CSS styles as below for the navigation and the contents of the pages*/
+
+.top-nav {
+    font-size: 1.15em;
+    margin: 1.875em 0em;
+}
+
+.top-nav a {
+    margin-right: 0.875em;
+    padding: 0.214em;
+    border-top-left-radius: 0.625em;
+    border-bottom-right-radius: 0.625em;
+    opacity: 0.7;
+}
+/*h1 heading is configured to have a background color with a text color*/
+
+.main-content h1:first-of-type {
+    /*gradient is given below*/
+    
+    background: -webkit-linear-gradient(#E0E0E0, #FFFFFF);
+    /* For Safari 5.1 to 6.0 */
+    
+    background: -o-linear-gradient(#E0E0E0, #FFFFFF);
+    /* For Opera 11.1 to 12.0 */
+    
+    background: -moz-linear-gradient(#E0E0E0, #FFFFFF);
+    /* For Firefox 3.6 to 15 */
+    
+    background: linear-gradient(#E0E0E0, #FFFFFF);
+    /* Standard syntax*/
+    
+    color: rgba(102, 153, 51, 0.8);
+    font-size: 1.9em;
+    font-family: charter;
+}
+
+.main-content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#home img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border: 0.063em dashed #8A939D;
+    padding: 2%;
+    box-shadow: 0.125em 0.125em 0.625em 0.125em #999 inset;
+}
+
+.main-content div {
+    text-align: left;
+}
+
+.tagline {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0em 0.250em 0.188em rgba(0, 0, 0, 0.4), 0em 0.500em 0.813em rgba(0, 0, 0, 0.1), 0em 1.125em 1.438em rgba(0, 0, 0, 0.1);
+}
+
+#thought {
+    font-family: Cursive, Helvetica, Arial;
+    font-size: 1.67em;
+    color: #d2b48c;
+}
+
+h2 {
+    color: #480000;
+    font-size: 1.67em;
+    font-family: Helvetica, Verdana, Arial;
+    font-style: italic;
+}
+
+.thick-line {
+    width: 80%;
+    height: 0.313em;
+    background-color: #8A939D;
+}
+
+.thin-line {
+    width: 100%;
+    height: 0.063em;
+    background-color: #8A939D;
+}
+
+.thanks {
+    color: #006600;
+    font-size: 1.250em;
+    font-style: italic;
+    font-family: Avenir;
+}
+
+.bottom-nav {
+    font-size: 1.17em;
+}
+
+.bottom-nav a {
+    margin-right: 1.875em;
+    padding: 0.188em;
+    border-top-left-radius: 0.625em;
+    border-bottom-right-radius: 0.625em;
+    opacity: 0.7;
+}
+/*Style for the body tag is given to contain background image, background color, text color, font family, font size, font style and font weight*/
+
+body {
+    background-color: #F8F8F8;
+    color: #000000;
+    font-family: "Avenir", Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.125em;
+    font-style: normal;
+    font-weight: 100;
+    background: url("http://www.zingerbugimages.com/backgrounds/white_parchment_paper_wallpaper_texture_seamless.jpg") repeat;
+    background-size: 100% auto;
+}
+/*Hyperlinks have a different background color and text decoration*/
+
+#logo {
+    background-color: transparent;
+}
+
+a:link {
+    background-color: #E0E0E0;
+    color: #FF8C00;
+    text-decoration: none;
+}
+/*Visiting links have different color*/
+
+a:visited {
+    background-color: #E0E0E0;
+    color: #005000;
+    text-decoration: none;
+}
+/*Different color is shown when hovered on link*/
+
+a:hover {
+    background-color: #E0E0E0;
+    color: #754719;
+    text-decoration: underline;
+}
+
+.important-text {
+    font-size: 150%;
+    text-align: center;
+    font-style: italic;
+}
+/*Layout with styles usage is done below to position the thought*/
+
+#thought {
+    border: 0.063em solid black;
+    width: 90%;
+    /*	position: relative; 
+	left: 216px; 
+*/
+}
+
+#contact {
+    margin: 0 auto;
+    width: 50%;
+}
+/*Layout with styles usage is done below to give margin*/
+
+.question {
+    margin-top: 0.938em;
+}
+
+.bold-para {
+    font-weight: bold;
+}
+
+.dashed-line {
+    width: 90%;
+    border-top: 0.063em dashed #8A939D;
+    margin-top: 1.750em;
+    margin-bottom: 1.750em;
+}
+/*styles for product page*/
+
+#style_table {
+    border: 0.125em solid #8A939D;
+    width: 80%;
+    margin: 1.875em auto;
+    border-spacing: 0.313em;
+    padding: 0.625em;
+    /*gradient is given below*/
+    
+    background: -webkit-linear-gradient(#E0E0E0, #FFFFFF);
+    /* For Safari 5.1 to 6.0 */
+    
+    background: -o-linear-gradient(#E0E0E0, #FFFFFF);
+    /* For Opera 11.1 to 12.0 */
+    
+    background: -moz-linear-gradient(#E0E0E0, #FFFFFF);
+    /* For Firefox 3.6 to 15 */
+    
+    background: linear-gradient(#E0E0E0, #FFFFFF);
+    /* Standard syntax*/
+}
+
+caption {
+    font-size: 1.625em;
+    font-weight: 400;
+    margin: 1.875em;
+    font-family: "Avenir", Verdana, Arial;
+}
+
+th {
+    text-align: center;
+    padding: 0.938em;
+    border: 0.063em dashed #8A939D;
+    border-top-left-radius: 0.625em;
+    border-bottom-right-radius: 0.625em;
+}
+
+td {
+    text-align: center;
+    padding: 0.938em;
+    border: 0.063em dashed #8A939D;
+}
+/*styles for order page*/
+
+#form-container {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Avenir", Verdana, Arial;
+}
+
+fieldset {
+    padding: 1.875em;
+    border: 0.125em solid #666699;
+}
+
+label {
+    margin-right: 0.625em;
+    font-size: 1.000em;
+}
+
+.inputField {
+    margin-bottom: 1.563em;
+    margin-left: 0.425em;
+}
+
+input {
+    width: 30%;
+}
+
+#prod_info input {
+    width: 70%;
+}
+
+#address {
+    width: 70%;
+}
+
+#phone {
+    width: 20%;
+}
+
+.clickToAction {
+    width: 50%;
+    padding-top: 1.875em;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 0.313em 0.313em;
+    width: 6.250em;
+    background-color: #C8C8C8;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.750em;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+.btn:hover {
+    background: #8A939D;
+}
+
+#whatsnew-box {
+    margin-top: 1.250em;
+    box-shadow: 0.063em 0.125em 0.125em 0.188em #000;
+    /*shadow boxes created with news section*/
+    
+    text-shadow: 0.125em 0.063em 0.125em #FFFFFF;
+    /*Used text shadow*/
+    
+    opacity: 0.7;
+    /*Used opacity*/
+    /*Used multiple background images*/
+    
+    background-image: url("images/whatsnew.gif"), url("http://thecutestblogontheblock.com/wp-content/uploads/2011/11/hilltop-hideaway-free-stretch-blog-background-wood-1000x500.jpg");
+    background-position: left top, left;
+    background-repeat: no-repeat, repeat;
+    background-size: 12.500em 6.250em, cover;
+    opacity: 0.9;
+    padding: 3.125em;
+}
+
+#prod_info {
+    margin-top: 2.500em;
+}
+/*styles for Jobs page*/
+/*Usage of pseudoclasses is done for Jobs page*/
+
+.jobs li:nth-of-type(1) {
+    color: #005000
+}
+
+.jobs li:nth-of-type(2) {
+    color: #005000
+}
+
+.jobs li:nth-of-type(3) {
+    color: #005000
+}
+
+.jobs p:nth-child(n) {
+    background-color: #D0D0D0;
+}
+
+.jobs > p:last-child {
+    color: #754719;
+}
+/*styles for multimedia page*/
+/*Usage of pseudoclasses is done for multimedia page*/
+
+.multi p:first-child {
+    background-color: #D0D0D0;
+}
+/*pseudoelement*/
+
+.multi p:first-child:first-letter {
+    font-size: 200%;
+}
+
+.row-flex {
+    display: flex;
+    display: -webkit-flex;
+    /*chrome*/
+    
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+.col-flex {
+    display: flex;
+    display: -webkit-flex;
+    /*chrome*/
+    
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.col-flex header,
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+/*Usage of CSS media queries to create the page for mobile devices*/
+
+@media only screen and (min-width: 22.500em) and (max-width: 41.688em) {
+    .bottom-nav,
+    .top-nav {
+        display: flex;
+        display: -webkit-flex;
+        /*chrome*/
+        
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        align-items: center;
+        -webkit-align-items: center;
+    }
+    .bottom-nav a,
+    .top-nav a {
+        margin-bottom: 0.625em;
+    }
+    .multi iframe {
+        width: 20.500em;
+    }
+    #style_table img {
+        display: none;
+    }
+    th,
+    td,
+    fieldset {
+        padding: 2px;
+    }
+    #contact {
+        width: 100%;
+    }
+    #home img {
+        width: 100%;
+    }
+}

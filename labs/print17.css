@@ -1,0 +1,23 @@
+body{
+	color: #000000;    
+	background-color: #FFFFFF;
+	font-size: 81.25%;
+}
+p{
+	font-family: "serif", verdana, arial;	
+}
+img
+{
+	display: none;                   
+}
+h1, h2
+{
+	page-break-after: avoid;
+}
+
+a:after { content: " (" attr(href) ") "; }
+
+#copyright{
+	text-align: center;
+	font-size: 14px;
+}

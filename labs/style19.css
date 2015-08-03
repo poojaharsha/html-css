@@ -1,0 +1,236 @@
+/*stlyes for Lab 19 - transformations and animatioms*/
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    -webkit-transform: rotate(9deg) translate(-15px, 0px);
+}
+
+#flex-container {
+    display: -webkit-flex;
+    display: flex;
+    /*flex direction column is given below*/
+    
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    /*align item center is given below*/
+    
+    -webkit-align-items: center;
+    align-items: center;
+    /*justify column space around is given below*/
+    
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    /*align content stretch is given below*/
+    
+    -webkit-align-content: stretch;
+    align-content: stretch;
+    width: 80%;
+    margin: 10px auto;
+    padding: 40px;
+    border-radius: 10px;
+    background: #B3B3B3;
+    -webkit-animation: sushi 2s infinite;
+    animation-name: sushi;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.flex-item {
+    /*flex grow 1 is given below for first item*/
+    
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #FF5D1F;
+    color: #FFFFFF;
+    font-family: "avenir", verdana, arial;
+    margin: 5px;
+}
+
+@keyframes sushi {
+    from {
+        background-color: #B3B3B3;
+    }
+    to {
+        background-color: #FFC7A2;
+    }
+}
+
+@-webkit-keyframes sushi {
+    from {
+        background-color: #B3B3B3;
+    }
+    to {
+        background-color: #FFC7A2;
+    }
+}
+
+.box1:hover {
+    -moz-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+.box3:hover {
+    transform: skew(35deg);
+}
+
+.box4 div {
+    width: 120px;
+    height: 50px;
+    background: #ccc;
+    float: left;
+    margin: 0 5px 5px 0;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.box4 div:hover {
+    -webkit-transform: scale(1.4);
+    background: #000;
+    color: #FFF;
+}
+
+@keyframes nemo {
+    12% {
+        left: 285px;
+    }
+    25% {
+        left: 570px;
+    }
+    37% {
+        left: 285px;
+    }
+    50% {
+        left: 0px;
+    }
+    62% {
+        left: -285px;
+    }
+    75% {
+        left: 570px;
+    }
+    87% {
+        left: -285px;
+    }
+    95% {
+        left: -570px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+@-webkit-keyframes nemo {
+    12% {
+        left: 285px;
+    }
+    25% {
+        left: 570px;
+    }
+    37% {
+        left: 285px;
+    }
+    50% {
+        left: 0px;
+    }
+    62% {
+        left: -285px;
+    }
+    75% {
+        left: 570px;
+    }
+    87% {
+        left: -285px;
+    }
+    95% {
+        left: -570px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.nemo {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    -webkit-animation: nemo 5s infinite;
+    animation-name: nemo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.nemo:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    0% {
+        transform: scale(0.4);
+        opacity: 0;
+    }
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    0% {
+        transform: scale(0.4);
+        opacity: 0;
+    }
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.box2 {
+    -webkit-animation: bounceIn 5s;
+    animation: bounceIn 5s;
+}
+
+h3 {
+    -webkit-animation: bounceIn 5s infinite;
+    -moz-animation: bounceIn 5s infinite;
+    ;
+}

@@ -1,0 +1,22 @@
+h1
+{
+	text-align: center;
+}
+/*Style is used to add border with the width, style, color to the first image, padding is used to add space and the image is resized*/
+#main-poster
+{
+	float:left;
+	border: 5px ridge #000000; 
+	padding:20px;
+	height: 500px;
+	width: 500px;
+} 
+/*Style is used to float the second image to the right, margin is used to add space and the image is resized*/
+#endurance
+{
+	float:right; 
+	margin:30px;
+	height: 300px;
+	width: 300px;
+}	
+

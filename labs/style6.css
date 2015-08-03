@@ -1,0 +1,57 @@
+ /* body is given a background color below*/
+body
+{
+	background-color:#202020;	
+}
+/*H1 heading is given a background color and a text color*/
+h1
+{
+	background-color:#000000;
+	text-align:center;
+	color:#87CEEE;
+}
+#main
+{
+	text-align:center;
+}
+/* Below class is used to give text color, font family, font size and font weight to description of the movie*/
+.common2
+{
+	color:#FFFFFF; 
+	font-family: Verdana,Arial;
+	font-size: 12pt;
+	font-weight: 100;	
+}
+/*Below id is used to give background color and Font style to the list of movie actors and actress*/
+#starring
+{
+	background-color:#808080;
+	font-style:italic;
+}
+.common1
+{
+	font-weight:bold; 
+	text-align:center;
+	color: #C0C0C0;
+}
+/*Hyperlink has a different background color and text decoration*/
+a:link 
+{
+	background-color:#404040;
+	color:#778899;
+	text-decoration:none;
+}
+a:visited
+{
+	background-color:#606060; 
+	color:#D2691E;
+	text-decoration:none;
+}
+/*Different color is shown when hovered on link*/
+a:hover 
+{
+	background-color:#D3D3D3; 
+	color:#00BFFF;
+	text-decoration:underline; 
+}
+

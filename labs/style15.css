@@ -1,0 +1,44 @@
+#flex-container {
+	display: -webkit-flex;
+	display: flex;
+	/*flex direction column is given below*/
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	/*align item center is given below*/
+	-webkit-align-items: center;
+	align-items: center;
+	/*justify column space around is given below*/
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	/*align content stretch is given below*/
+	-webkit-align-content: stretch;
+	align-content: stretch;
+	width: 80%;
+	height: 1000px;
+	background-color: #C1DAD6;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+
+.flex-item {
+	/*flex grow 1 is given below for first item*/
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	padding: 10px;	
+	background-color: #6D929B;
+	color: #FFFFFF;
+	width: 40%;
+	font-family: "avenir", verdana, arial;	
+	margin: 5px;
+}
+/*flex grow 3 and 5 are given below for the next two items to indicate growth*/
+.grow3{
+	-webkit-flex-grow: 3;
+	flex-grow: 3;
+}
+
+.grow5{
+	-webkit-flex-grow: 5;
+	flex-grow: 5;
+}

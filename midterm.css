@@ -1,0 +1,160 @@
+body
+{
+	margin:0;
+}/*image background is given for header with no repeat*/
+#main_header
+{
+	background: url(http://www.ionicstone.com/globalproducts/large/DEVA-CREAM-1.jpg) no-repeat;	
+	padding: 30px;
+	text-align: center;
+}
+
+.nav-links
+{
+	margin-right: 20px;
+	background-color:#FF9900;
+	color: #FFFFFF;
+}
+.nav-links:hover
+{
+	
+	background-color: #D4976E;
+}
+/*background color is set to article*/
+#main_art
+{
+	padding: 50px 100px;
+	background-color: #FDEDD0;
+}
+#emp_style
+{
+	font-style: italic;
+}
+.pad_mar_section
+{
+	margin-top: 20px;
+	padding: 30px 50px;
+}
+/*Act 1 is aligned to left and color is given*/
+#act1_left
+{
+	text-align: left;
+	color: #4D4D4D;
+}
+
+#act_1
+{
+	background-color: #FD795B;
+	text-align: left;	
+}
+.text_color
+{
+	color: #666633;
+}
+.text_bold
+{
+	font-weight: bold;
+}
+.text_italic
+{
+	font-style: italic;
+}
+.thick-line
+{
+	width:50%;
+	height:5px;
+	background-color:#8A939D;
+}
+.thick-green-line
+{
+	width:40%;
+	height:8px;
+	background-color:#008000;
+}
+.thin-blue-line{
+	width:60%;
+	height:3px;
+	background-color:#0000FF;	
+}
+.thin-line
+{
+	width:100%;
+	height:1px;
+	background-color:#8A939D;
+}
+#act2_center
+{
+	text-align: center;
+	color: #8A5C2E;
+}
+#act_2
+{
+	background-color: #BCF1ED;	
+}
+
+#mom_son { 
+	border: 10px solid #EDEDED;
+	height: 300px;
+	width: 300px;
+}
+#act3_right
+{
+	text-align: right;
+	color: #FF6699;
+}
+.act3_para
+{
+	padding:30px;
+	background-color: #FFFF00;
+}
+#act_3
+{
+	background-color: #66CCFF;	
+}
+.act3_size1{
+	font-size: 30px;
+}
+.act3_size2{
+	font-size: 22px;	
+}
+
+#act_4
+{
+	background-color: #CC99FF;
+}
+#act4_left
+{
+	text-align: left;
+	color: #FF00FF;
+}
+.kiran{
+	font-weight: 900;
+	font-size:250%;
+	color:#9933FF;
+
+}
+.aarthi{
+	font-weight: 700;	
+	font-size:200%;
+	color:#FF0066;
+}
+
+#studio_prop
+{
+	background-color: #E47297;
+}
+#studio_center
+{
+	text-align: center;
+	color:#FF0000;
+}
+#end_footer
+{
+	text-align: center;
+	background-color: #927B51;
+	color: #FFFFFF;
+	padding: 10px;
+}
+#copyright{
+	font-size: 14px;
+}

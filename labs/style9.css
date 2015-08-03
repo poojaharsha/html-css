@@ -1,0 +1,43 @@
+/*Header tag with a background image (small) no repeat and a heading*/
+header
+{
+	background: url("images/film_strip.jpg") no-repeat;	
+	width:400px;
+	height:400px;		
+	margin:0px auto;		
+}
+/*heading is in h1 to be centered*/
+h1
+{
+	text-align: center;
+}
+/*Background color is added to the nav tag below*/
+nav
+{
+	background-color: #F0F0F0;
+	text-align: bottom;
+	position: relative;top: 314px;
+}
+#lotr{
+	width: 342px;	
+	margin:0 auto;
+}
+#ironman
+{
+	background: url("images/iron_man.jpg") no-repeat;
+	height: 720px;
+    width: 486px;
+    margin:0 auto;
+}
+#actor
+{
+  color: #FFFFFF;
+  text-align: center;
+  position: relative;  top: 81px;
+  margin:0 auto;
+  font-size: 28px;
+}
+#footer_attri
+{
+	text-align: center;
+}

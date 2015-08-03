@@ -1,0 +1,295 @@
+/*styles for final exam*/
+
+body {
+    background-image: url("http://www.touroperatorasia.com/frontPage/images/travel_wallpaper.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#header {
+    background-image: -o-linear-gradient(bottom, #7C72A8 0%, #8A8F94 100%);
+    background-image: -moz-linear-gradient(bottom, #7C72A8 0%, #8A8F94 100%);
+    background-image: -webkit-linear-gradient(bottom, #7C72A8 0%, #8A8F94 100%);
+    background-image: -ms-linear-gradient(bottom, #7C72A8 0%, #8A8F94 100%);
+    background-image: linear-gradient(to bottom, #7C72A8 0%, #8A8F94 100%);
+    border: 3px solid #FF2D1C;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px 1px 2px 3px #999;
+}
+
+#header h1 {
+    margin: 0;
+    padding: 10px;
+    background-image: url("http://www.hiscox.com/small-business-insurance/blog/wp-content/uploads/2013/06/The-Elusive-Small-Business-Vacation.jpg");
+    width: 400px;
+    height: 50px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    font-family: avenir, verdana, arial;
+    font-size: 200%;
+    color: #5232FF;
+    text-shadow: 2px 1px 2px #FFFFFF;
+    border-top-left-radius: 5px;
+}
+
+#message {
+    background-image: -o-linear-gradient(bottom, #357368 0%, #80A158 100%);
+    background-image: -moz-linear-gradient(bottom, #357368 0%, #80A158 100%);
+    background-image: -webkit-linear-gradient(bottom, #357368 0%, #80A158 100%);
+    background-image: -ms-linear-gradient(bottom, #357368 0%, #80A158 100%);
+    background-image: linear-gradient(to bottom, #357368 0%, #80A158 100%);
+    padding: 5px;
+    margin: 0;
+    font-size: 200%;
+    color: #FFF;
+    text-align: center;
+    box-shadow: 1px 1px 1px 3px #C3FBB8;
+    text-shadow: 3px 3px 3px blue;
+}
+
+#message-bold {
+    font-weight: bold;
+}
+
+#content {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 70%;
+    color: #191919;
+    line-height: 1.5em;
+    transition-property: background;
+    -webkit-transition-property: background;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+}
+
+#content:hover {
+    background: #FF0000;
+}
+
+#content h1 {
+    margin-bottom: 1em;
+    padding: 0;
+    font-family: avenir, verdana, arial;
+    font-size: 170%;
+    color: #FF8000;
+}
+
+.gutter {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 15px;
+    border: 3px solid #008000;
+    background-color: #FFFFFF;
+    opacity: 0.75;
+    box-shadow: 1px 1px 1px 2px #CCFF66;
+}
+
+#sidebar {
+    width: 30%;
+    float: right;
+}
+
+#footer {
+    clear: both;
+    margin: 0;
+    padding: 3px;
+    border: 3px solid #FF2D1C;
+    font-size: 90%;
+    color: #FFFFFF;
+    background-image: -o-linear-gradient(bottom, #7C72A8 0%, #8A8F94 100%);
+    background-image: -moz-linear-gradient(bottom, #7C72A8 0%, #8A8F94 100%);
+    background-image: -webkit-linear-gradient(bottom, #7C72A8 0%, #8A8F94 100%);
+    background-image: -ms-linear-gradient(bottom, #7C72A8 0%, #8A8F94 100%);
+    background-image: linear-gradient(to bottom, #7C72A8 0%, #8A8F94 100%);
+    box-shadow: 1px 1px 2px 3px #999;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+a:link {
+    color: #FF8C00;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #005000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #754719;
+    text-decoration: underline;
+}
+
+.box {
+    margin-right: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 35px;
+    font-size: 85%;
+    line-height: 1.5em;
+    color: #654321;
+    background-color: #008080;
+    box-shadow: 1px 1px 2px 3px #EA8E48;
+    border: 3px solid #FF0000;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box h2 {
+    padding: 2px;
+    margin: 0;
+    font-size: 170%;
+    font-family: verdana, Georgia, arial;
+    color: #FFDC60;
+}
+
+.box p {
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 0;
+    font-size: 140%;
+}
+
+.box ul {
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 0;
+}
+
+.box ul li {
+    padding-left: 25px;
+    margin-left: 10px;
+    list-style-type: none;
+    background: url(http://itu.lewebcafe.com/sen910/lecture/list/images/rightarrow.gif);
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+}
+
+.box:hover {
+    color: #70FF37;
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+
+.box:focus {
+    color: #A42FFF;
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+
+.box a:hover {
+    color: #37FB13;
+    background-color: #E1FB54;
+    opacity: 1;
+}
+
+.box a:focus {
+    color: #37FB13;
+    background-color: #E1FB54;
+    opacity: 1;
+}
+
+dl.feature {
+    padding: 25px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    border-top: 3px dashed #ff0000;
+}
+
+.feature dt {
+    margin-bottom: 0.5em;
+    font-family: avenir, verdana, arial;
+    font-size: 140%;
+    color: #00FFFF;
+}
+
+.feature dt img {
+    float: left;
+    margin-right: 15px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-shadow: 2px 1px 2px #53EA46;
+    border: 5px ridge #EEC900;
+}
+
+dd {
+    font-family: verdana, arial;
+    color: #EA90D3;
+    line-height: 1.5em;
+}
+
+dl:hover {
+    color: #FFF;
+    background-color: #BC37EA;
+    opacity: 1;
+}
+
+dl:focus {
+    color: #FFF;
+    background-color: #C2EA45;
+    opacity: 1;
+}
+
+dl.alternate {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+dl.alternate dt img {
+    float: right;
+}
+
+dl.alternate dd {
+    margin: 0;
+}
+
+dl.alternate dt {
+    color: #CCEA15;
+    text-shadow: 1px 1px 1px #6FEA46;
+}
+
+dl.alternate:hover {
+    color: #B352EA;
+    background-color: #21EA64;
+    opacity: 1;
+}
+
+dl.alternate:focus {
+    color: #EA384A;
+    background-color: #6D1A22;
+    opacity: 1;
+}
+
+p.dotted {
+    border: 5px dotted #BB5BEA;
+    font-size: 120%;
+}
+
+.country {
+    width: 100px;
+    height: 130px;
+}
+
+.last-line {
+    font-size: larger;
+}
+
+.bold-word {
+    font-weight: bold;
+    color: #FB0E0F;
+}
+
+.green-word {
+    color: #61FB41;
+}
+
+.yellow-word {
+    color: #FB6919;
+}

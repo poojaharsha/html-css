@@ -1,0 +1,13 @@
+/* External style is given here to contain an ID selector with different background color, text size and text color*/
+#feature1
+{
+ background-color:#D8D8D8;	
+ color:#008080;
+ font-size:16pt;
+}
+#feature2
+{
+ background-color:#D0D0D0;	
+ color:#9370DB;
+ font-size:16pt;
+}

@@ -1,0 +1,44 @@
+/*Table border with each side having a different color. The table takes only 80% of the screen*/
+#style_table
+{
+	border: 5px solid; 
+	border-color: #FF9933 #33CCFF #FF3300 #666699;
+	width: 80%;
+	margin: 30px auto;
+	border-spacing: 5px; /*cell spacing is given to give space between cells*/
+	padding:10px; /*padding is given to table*/
+}
+caption
+{
+	font-size: 36px;
+	font-weight: bold;
+	margin: 30px;
+}
+th
+{
+	text-align: center;
+	padding:15px;
+	border:6px ridge;
+}
+td
+{
+	text-align: center;
+	padding:15px; /*padding is given to cells*/
+}
+/*Given different widths of the cells*/
+.col-head1
+{
+	width:30%;
+}
+.col-head2
+{
+	width:70%;
+}
+.light-row
+{
+	background-color: #C8C8C8;
+}
+.dark-row
+{
+	background-color: #707070;
+}

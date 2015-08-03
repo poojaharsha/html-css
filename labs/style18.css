@@ -1,0 +1,147 @@
+/*stlyes for Lab 18 - Transistion*/
+
+h1 {
+    text-align: center;
+}
+
+#flex-container {
+    display: -webkit-flex;
+    display: flex;
+    /*flex direction column is given below*/
+    
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    /*align item center is given below*/
+    
+    -webkit-align-items: center;
+    align-items: center;
+    /*justify column space around is given below*/
+    
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    /*align content stretch is given below*/
+    
+    -webkit-align-content: stretch;
+    align-content: stretch;
+    width: 80%;
+    height: 900px;
+    margin: 10px auto;
+    padding: 40px;
+}
+
+.flex-item {
+    /*flex grow 1 is given below for first item*/
+    
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #6D929B;
+    color: #FFFFFF;
+    font-family: "avenir", verdana, arial;
+    margin: 5px;
+}
+/*flex grow 3 and 5 are given below for the next two items to indicate growth*/
+
+.grow3 {
+    -webkit-flex-grow: 3;
+    flex-grow: 3;
+}
+
+.grow5 {
+    -webkit-flex-grow: 5;
+    flex-grow: 5;
+}
+
+.big-box {
+    background-color: #C1DAD6;
+    transition-property: background-color, border-radius;
+    transition-duration: 3s, 3s;
+    -webkit-transition-duration: 3s, 3s;
+    -webkit-transition-property: background-color, border-radius;
+    transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+}
+
+.big-box:hover {
+    background-color: #6EFB29;
+    border-radius: 10%;
+}
+
+.box1 {
+    opacity: 0.4;
+    transition-property: opacity;
+    -webkit-transition-property: opacity;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    transition-duration: 2s, 2s;
+    -webkit-transition-duration: 2s, 2s;
+}
+
+.box1:hover {
+    opacity: 0.9;
+}
+
+.box2 {
+    width: 300px;
+    font-size: 12px;
+    transition-property: width, font-size;
+    -webkit-transition-property: width, font-size;
+    transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    transition-duration: 1s, 1s;
+    -webkit-transition-duration: 1s, 1s;
+}
+
+.box2:hover {
+    width: 350px;
+    font-size: 18px;
+}
+
+.box3 {
+    background: #d5eae9;
+    color: #FB50AB;
+    -webkit-transition: background 1.3s ease, color 1.2s linear;
+    -moz-transition: background 1.3s ease, color 1.2s linear;
+    -o-transition: background 1.3s ease, color 1.2s linear;
+    transition: background 1.3s ease, color 1.2s linear;
+}
+
+.box3:hover,
+.box3:focus {
+    background: #FB50AB;
+    color: #d5eae9;
+}
+
+.box4 {
+    color: #654321;
+    border-radius: 10%;
+    -webkit-transition: border-radius .3s ease, color 1.2s linear;
+    -moz-transition: border-radius .3s ease, color 1.2s linear;
+    -o-transition: border-radius 1.3s ease, color 1.2s linear;
+    transition: border-radius .3s ease, color 1.2s linear;
+}
+
+.box4:hover,
+.box4:focus {
+    color: #1234FB;
+    border-radius: 0px;
+}
+
+.box5 {
+    background: #66FFCC;
+    color: #FFFFFF;
+    padding: 0px;
+    border-radius: 20px;
+    -webkit-transition: all 0.5s linear 1s;
+    -moz-transition: all 0.5s linear 1s;
+    -o-transition: all 0.5s linear 1s;
+    transition: all 0.5s linear 1s;
+}
+
+.box5:hover,
+.box5:focus {
+    color: #008000;
+    border-radius: 0px;
+    padding: 10px;
+    background: #FF6666;
+}

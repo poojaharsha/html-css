@@ -1,0 +1,40 @@
+h1
+{
+	text-align: center; 
+}
+/*box to contain border, border style, background color, padding and margin for 1st article*/
+#box1
+{
+	margin: 20px 30px 20px 15px;
+    border-color: #654321;
+    border-style: dotted;
+    border-width: 3px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    width: 50%;
+}
+/*box different from the first box with width, font-size and floating for 2nd article*/
+#box2
+{
+	margin: 30px;
+    border-color: #006400;
+    border-style: solid;
+    border-width: 6px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    width: 47%;
+    font-size: 16px;
+    float: right;
+}
+/*box with width, position and other attributes are given below for aside tag*/
+#box3
+{
+	margin: 25px;
+    border-color: #006400;
+    border-style: ridge;
+    border-width: 4px;
+    padding: 16px;    
+    width: 30%;
+	position: relative; left: 27px; 
+}
+
